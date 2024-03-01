@@ -1,0 +1,29 @@
+[init]
+	defaultBranch = master
+
+[user]
+        email = 30512204+miccou@users.noreply.github.com
+        name = miccou
+
+[color]
+    ui = auto
+
+[color "status"]
+    changed = yellow
+
+[core]
+    quotepath = false
+    pager = "less -FRX"
+
+[diff]
+    renames = copies
+
+[merge]
+    conflictstyle = diff3
+
+[pager]
+    log = "less -S"
+    blame = "less -S"
+
+[rebase]
+    autosquash = true
