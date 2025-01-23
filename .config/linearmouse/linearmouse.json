@@ -1,0 +1,89 @@
+{
+  "schemes": [
+    {
+      "if": {
+        "device": {
+          "category": "mouse",
+          "productName": "MX Master 3S",
+          "productID": "0xb034",
+          "serialNumber": "60FC4233",
+          "vendorID": "0x46d"
+        }
+      },
+      "scrolling": {
+        "speed": {
+          "vertical": 0
+        },
+        "reverse": {
+          "vertical": true
+        },
+        "acceleration": {
+          "vertical": 1
+        },
+        "distance": {
+          "vertical": 2
+        }
+      },
+      "pointer": {
+        "acceleration": 1.66,
+        "disableAcceleration": true
+      }
+    },
+    {
+      "pointer": {
+        "acceleration": 1.8002,
+        "disableAcceleration": true,
+        "speed": 0.4348
+      },
+      "scrolling": {
+        "reverse": {
+          "vertical": true
+        }
+      },
+      "if": {
+        "device": {
+          "vendorID": "0x46d",
+          "serialNumber": "3161366D3432",
+          "category": "mouse",
+          "productID": "0xc54d",
+          "productName": "USB Receiver"
+        }
+      }
+    },
+    {
+      "pointer": {
+        "acceleration": 1.66,
+        "disableAcceleration": true
+      },
+      "scrolling": {
+        "reverse": {
+          "vertical": true
+        }
+      },
+      "if": {
+        "device": {
+          "productName": "USB Receiver",
+          "productID": "0xc548",
+          "category": "mouse",
+          "vendorID": "0x46d"
+        }
+      }
+    },
+    {
+      "if": {
+        "device": {
+          "category": "trackpad",
+          "productID": "0x0",
+          "productName": "Apple Internal Keyboard / Trackpad",
+          "vendorID": "0x0"
+        }
+      },
+      "scrolling": {
+        "acceleration": {
+          "vertical": 1
+        }
+      }
+    }
+  ],
+  "$schema": "https://schema.linearmouse.app/0.10.0"
+}

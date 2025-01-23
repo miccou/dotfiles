@@ -1,9 +1,12 @@
 [init]
-	defaultBranch = master
+	defaultBranch = main
 
 [user]
-        email = 30512204+miccou@users.noreply.github.com
-        name = miccou
+    email = 30512204+miccou@users.noreply.github.com
+    name = miccou
+
+[push]
+	autoSetupRemote = true
 
 [color]
     ui = auto
